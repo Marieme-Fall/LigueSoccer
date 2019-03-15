@@ -1,0 +1,87 @@
+/* 
+    Document   : style
+    Created on : 2013-06-05, 20:15:05
+    Author     : Usager
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#all { 
+    margin : auto;
+    /*width : 800px;
+    background-color:bisque;*/
+}
+#banner { 
+    border : solid 3px;
+    border-color: gray;
+    background-color:graytext;
+    text-align: center;
+    font-size: 150%;
+}
+#footer {
+    border : solid 3px;
+    border-color: gray;
+    background-color:graytext;    
+    clear : both;
+    font-size: 80%;
+    padding: 10px 10px;
+}
+.warningMessage {
+	color : red;
+}
+#loginForm {
+	border-color : #990;/*gray;*/
+	border-width : 1px;
+	border-style : solid;
+	width : 180px;
+	text-align : left;
+	padding : 10px;
+	margin : 20px 0;
+	background-color : #eee;
+}
+#menu {
+    float : left;
+	width : 100px;
+    border : solid 1px;
+    border-color: gray; 
+    background-color: lightgray;
+    margin : 50px 0 50px 10px;
+    padding : 10px;
+}
+#menu ul {
+    margin : 0px;
+    padding : 0px;
+}
+#menu li {
+    list-style: none;
+    margin : 0px;
+    padding : 5px;
+}
+#menu a {
+    padding : 0;
+	margin : 0;
+    color : gray;
+    text-decoration: none;
+}
+#menu a:hover {
+    color : red;
+}
+#content {
+	margin-left : 140px;
+	margin-bottom : 50px;
+}
+table#listeProd {
+	border-collapse : collapse;
+}
+table#listeProd td{
+	border-bottom : 1px solid gray;
+	padding : 3px;
+}
+table#listeProd td a{
+	text-decoration : none;
+	color : green;
+}
+table#listeProd td a:hover{
+	text-decoration : undeline;
+	color : gray;
+}
